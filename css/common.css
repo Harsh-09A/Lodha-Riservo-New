@@ -127,3 +127,6 @@
   cursor: pointer;
   color: var(--colorPrimary);
 }
+.policy_links a {
+  color: var(--colorPrimary);
+}

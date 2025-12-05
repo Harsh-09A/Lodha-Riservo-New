@@ -580,7 +580,12 @@ main {
 .nav-link:hover {
   background-color: transparent;
   color: var(--colorPrimary);
-  font-weight: 600;
+  /* font-weight: 600; */
+}
+
+.nav-link:hover {
+  background-color: var(--colorPrimary);
+  color: var(--colorWhite);
 }
 
 .nav-pills .nav-link::after {
@@ -821,4 +826,10 @@ main {
   width: 10px !important;
   height: 10px !important;
   border-radius: 50%;
+}
+
+/* Modal */
+.modal-content {
+  background-color: var(--colorSecondary);
+  border: 2px solid var(--colorPrimary);
 }

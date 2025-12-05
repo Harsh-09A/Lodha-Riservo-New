@@ -52,6 +52,7 @@ header {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   margin: 0 5px;
+  padding-left: 10px;
 }
 
 .navbar-nav .nav-link.active,
@@ -79,6 +80,16 @@ header {
   .navbar-brand img {
     height: 45px;
   }
+}
+
+@media screen and (min-width: 1000px) {
+  .mobileview {
+    display: none;
+  }
+}
+
+.head_call_btn {
+  color: var(--colorPrimary);
 }
 
 /* Navbar Ends */
@@ -568,7 +579,7 @@ main {
 .nav-pills .show > .nav-link,
 .nav-link:hover {
   background-color: transparent;
-  color: var(--colorSecondary);
+  color: var(--colorPrimary);
   font-weight: 600;
 }
 
